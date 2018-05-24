@@ -12,13 +12,13 @@
     import xterm from './xterm'
 
     export default {
-        name: 'landing-page',
-        components: {xterm},
-        methods: {
-            open(link) {
-                this.$electron.shell.openExternal(link)
-            }
+      name: 'landing-page',
+      components: {xterm},
+      methods: {
+        open (link) {
+          this.$electron.shell.openExternal(link)
         }
+      }
     }
 </script>
 
